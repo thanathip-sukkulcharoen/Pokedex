@@ -1,0 +1,26 @@
+.background-image {
+    background-size:cover;
+    background-position: center;
+    border: 2px solid white;
+}
+
+@font-face {
+    font-family: 'Pokemon Solid Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pokemon Solid Normal'), url('Pokemon Solid.woff') format('woff');
+    }
+
+.poke-api {
+    font-size:3em;
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em .67em 0em;
+    font-family: 'Pokemon Solid Normal';
+    color: #ffcc01;
+    font-weight: 200;
+    text-shadow:      
+    -3px -3px 0 #2d6ab3,  
+     3px -3px 0 #2d6ab3,
+    -3px  3px 0 #2d6ab3,
+     3px  3px 0 #2d6ab3;
+}
