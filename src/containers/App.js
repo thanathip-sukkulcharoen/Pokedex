@@ -10,15 +10,15 @@ class App extends Component {
     constructor(){
         super();
         this.state = {
-            robots: [],
+            species: [],
             searchfield: ''
         };
     }
 
     componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/users')
+        fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
             .then(response => response.json())
-            .then(users => this.setState({robots:users}));
+            .then(response => this.setState({species:response.results}));
     }
 
     onSearchChange = (event) => {
@@ -26,29 +26,23 @@ class App extends Component {
     }
     
     render(){
-        const {robots,searchfield} = this.state;
-        const filteredRobots = robots.filter(robot => {
-            return robot.name.toLowerCase().includes(searchfield.toLowerCase());
+        const filteredSpecies = this.state.species.filter(pokemon => {
+            return pokemon.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
         })
-        if (robots.length === 0){
-            return <h1>Loading</h1>
-        } else {
-            return (
-                <div className='tc'>
-                    <div className='background-image' style={{backgroundImage:`url(${background})`}}>
-                        <h1 className='poke-api'>PokéAPI</h1>
-                    </div>
-                    <SearchBox searchChange={this.onSearchChange}/>
-                    <Scroll>
-                        <ErrorBoundry>
-                            <CardList robots={filteredRobots}/>
-                        </ErrorBoundry>
-                    </Scroll>
+        return (
+            <div className='tc'>
+                <div className='background-image' style={{backgroundImage:`url(${background})`}}>
+                    <h1 className='poke-api'>Pokédex</h1>
                 </div>
-            );
-        }
+                <SearchBox searchChange={this.onSearchChange}/>
+                <Scroll>
+                    <ErrorBoundry>
+                        <CardList pokemons={filteredSpecies}/>
+                    </ErrorBoundry>
+                </Scroll>
+            </div>
+        );
     }
-
 }
 
 export default App;
