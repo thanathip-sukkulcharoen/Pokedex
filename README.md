@@ -1,10 +1,14 @@
 # Pokedex Web Application
 This is a simple react web application which utilizes the [***pokeapi***](https://pokeapi.co/)
+
+<img src="Demo_Image.png" >
+
 ## Table of Contents
+* [Demo](#demo)
 * [Features](#features)
 * [Library Version](#library-version)
 * [Installation](#installation)
-
+* [Note](#note)
 ## Demo 
 Live demo here --> [Demo](https://thanathip-sukkulcharoen.github.io/Pokedex/)
 ## Features
@@ -28,6 +32,8 @@ $ npm install
 # Run the app
 $ npm start
 ```
-
 After the server compiled successfully. Open [http://localhost:3000/Pokedex](http://localhost:3000/Pokedex)
 
+## Note 
+This application uses local images instead of API.
+The sprites can be downloaded here : [PokeAPI/sprites](https://github.com/PokeAPI/sprites#sprites)
