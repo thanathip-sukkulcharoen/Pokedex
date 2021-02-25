@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/thanathip-sukkulcharoen/Pokedex/static/css/main.1c2d16c7.chunk.css",
-    "main.js": "/thanathip-sukkulcharoen/Pokedex/static/js/main.0670be23.chunk.js",
-    "main.js.map": "/thanathip-sukkulcharoen/Pokedex/static/js/main.0670be23.chunk.js.map",
-    "runtime-main.js": "/thanathip-sukkulcharoen/Pokedex/static/js/runtime-main.7b875170.js",
-    "runtime-main.js.map": "/thanathip-sukkulcharoen/Pokedex/static/js/runtime-main.7b875170.js.map",
-    "static/css/2.31461e4f.chunk.css": "/thanathip-sukkulcharoen/Pokedex/static/css/2.31461e4f.chunk.css",
-    "static/js/2.aff7eec0.chunk.js": "/thanathip-sukkulcharoen/Pokedex/static/js/2.aff7eec0.chunk.js",
-    "static/js/2.aff7eec0.chunk.js.map": "/thanathip-sukkulcharoen/Pokedex/static/js/2.aff7eec0.chunk.js.map",
-    "static/js/3.fc6bcad0.chunk.js": "/thanathip-sukkulcharoen/Pokedex/static/js/3.fc6bcad0.chunk.js",
-    "static/js/3.fc6bcad0.chunk.js.map": "/thanathip-sukkulcharoen/Pokedex/static/js/3.fc6bcad0.chunk.js.map",
-    "index.html": "/thanathip-sukkulcharoen/Pokedex/index.html",
-    "static/css/2.31461e4f.chunk.css.map": "/thanathip-sukkulcharoen/Pokedex/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.1c2d16c7.chunk.css.map": "/thanathip-sukkulcharoen/Pokedex/static/css/main.1c2d16c7.chunk.css.map",
-    "static/js/2.aff7eec0.chunk.js.LICENSE.txt": "/thanathip-sukkulcharoen/Pokedex/static/js/2.aff7eec0.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/thanathip-sukkulcharoen/Pokedex/static/media/Pokemon Solid.71ed1ed0.woff",
-    "static/media/bg.7100e1d1.jpg": "/thanathip-sukkulcharoen/Pokedex/static/media/bg.7100e1d1.jpg"
+    "main.css": "/Pokedex/static/css/main.8317a24c.chunk.css",
+    "main.js": "/Pokedex/static/js/main.557f1ef4.chunk.js",
+    "main.js.map": "/Pokedex/static/js/main.557f1ef4.chunk.js.map",
+    "runtime-main.js": "/Pokedex/static/js/runtime-main.c0fe71a5.js",
+    "runtime-main.js.map": "/Pokedex/static/js/runtime-main.c0fe71a5.js.map",
+    "static/css/2.31461e4f.chunk.css": "/Pokedex/static/css/2.31461e4f.chunk.css",
+    "static/js/2.aff7eec0.chunk.js": "/Pokedex/static/js/2.aff7eec0.chunk.js",
+    "static/js/2.aff7eec0.chunk.js.map": "/Pokedex/static/js/2.aff7eec0.chunk.js.map",
+    "static/js/3.fc6bcad0.chunk.js": "/Pokedex/static/js/3.fc6bcad0.chunk.js",
+    "static/js/3.fc6bcad0.chunk.js.map": "/Pokedex/static/js/3.fc6bcad0.chunk.js.map",
+    "index.html": "/Pokedex/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/Pokedex/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.8317a24c.chunk.css.map": "/Pokedex/static/css/main.8317a24c.chunk.css.map",
+    "static/js/2.aff7eec0.chunk.js.LICENSE.txt": "/Pokedex/static/js/2.aff7eec0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Pokedex/static/media/Pokemon Solid.71ed1ed0.woff",
+    "static/media/bg.7100e1d1.jpg": "/Pokedex/static/media/bg.7100e1d1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b875170.js",
+    "static/js/runtime-main.c0fe71a5.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.aff7eec0.chunk.js",
-    "static/css/main.1c2d16c7.chunk.css",
-    "static/js/main.0670be23.chunk.js"
+    "static/css/main.8317a24c.chunk.css",
+    "static/js/main.557f1ef4.chunk.js"
   ]
 }
