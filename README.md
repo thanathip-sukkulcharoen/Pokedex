@@ -35,5 +35,6 @@ $ npm start
 After the server compiled successfully. Open [http://localhost:3000/Pokedex](http://localhost:3000/Pokedex)
 
 ## Note 
-This application uses local images instead of API.
+This application uses local images instead of API to save load on PokeAPI.
+
 The sprites can be downloaded here : [PokeAPI/sprites](https://github.com/PokeAPI/sprites#sprites)
