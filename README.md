@@ -1,12 +1,18 @@
 # Pokedex Web Application
+This is a simple react web application which utilizes the [***pokeapi***](https://pokeapi.co/)
 ## Table of Contents
+* [Features](#features)
 * [Library Version](#library-version)
+* [Installation](#installation)
 
-Simple react web application which utilizes the [***pokeapi***](https://pokeapi.co/)
-
+## Demo 
+Live demo here --> [Demo](https://thanathip-sukkulcharoen.github.io/Pokedex/)
+## Features
+* Simple Pokedex from Pokemon game.
+* Allow searching pokemon by entering pokemon's name.
 ## Library Version
 * [React](https://reactjs.org/) version 17.0.1
-* [tachyons](https://tachyons.io/) version 4.12.0
+* [Tachyons](https://tachyons.io/) version 4.12.0
 
 ## Installation
 Follow the instructions below
@@ -15,9 +21,13 @@ Follow the instructions below
 3. Open command line on project directory
 4. Run these commands below
 
-```
+```bash
+# Install dependencies
 $ npm install
+
+# Run the app
 $ npm start
 ```
 
 After the server compiled successfully. Open [http://localhost:3000/Pokedex](http://localhost:3000/Pokedex)
+
